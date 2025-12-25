@@ -117,6 +117,7 @@ async function executeOllamaDetector(
     // Legacy paths (for backwards compatibility)
     path.resolve(__dirname, '..', '..', '..', 'auto-claude', 'ollama_model_detector.py'),
     path.resolve(process.cwd(), 'auto-claude', 'ollama_model_detector.py'),
+    path.resolve(process.cwd(), '..', 'auto-claude', 'ollama_model_detector.py'),
   ];
 
   let scriptPath: string | null = null;
